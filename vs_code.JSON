@@ -1,0 +1,89 @@
+{
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": true,
+	"editor.guides.highlightActiveBracketPair": true,
+	"editor.fontWeight": "normal",
+	"editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	"editor.suggest.showStatusBar": true,
+	"editor.suggest.insertMode": "insert",
+	"editor.suggestSelection": "first",
+	"files.defaultLanguage": "markdown",
+	// "files.defaultLanguage": "${activeEditorLanguage}",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"workbench.iconTheme": "material-icon-theme",
+	"python.languageServer": "Pylance",
+	"editor.fontSize": 14,
+	"editor.tabSize": 4,
+	"editor.cursorStyle": "line",
+	"editor.insertSpaces": false,
+	"editor.lineNumbers": "on",
+	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+	"editor.wordWrap": "on",
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[c]": {
+		"editor.formatOnSave": false
+	},
+	"[c++]": {
+		"editor.formatOnSave": false
+	},
+	"files.associations": {
+		"*.h": "c",
+	},
+	"editor.formatOnSave": true,
+	"[typescript]": {
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		}
+	},
+	"[json]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace",
+		"gitlens.codeLens.scopes": [
+			"document"
+		]
+	},
+	"security.workspace.trust.untrustedFiles": "open",
+	"editor.accessibilityPageSize": 12,
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [
+			80
+		],
+		"editor.selectionHighlight": false,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": false
+	},
+	"workbench.startupEditor": "none",
+	"workbench.editor.pinnedTabSizing": "compact",
+	"workbench.editor.wrapTabs": true,
+	"powermode.enabled": true,
+	"powermode.presents": "flames",
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter-notebook"
+	},
+	"notebook.cellToolbarLocation": {
+		"default": "right",
+		"jupyter-notebook": "left"
+	},
+	"cSpell.language": "en,pt-BR",
+	"html.autoClosingTags": false,
+	"terminal.integrated.gpuAcceleration": "off",
+	"terminal.external.osxExec": "Terminal.app",
+	"terminal.integrated.defaultProfile.osx": "zsh",
+	"terminal.integrated.fontFamily": "Noto Mono for Powerline",
+	"workbench.editor.untitled.hint": "hidden",
+	"explorer.confirmDelete": false,
+	"workbench.colorTheme": "GitHub Dark",
+	"editor.minimap.enabled": false,
+	"editor.tokenColorCustomizations": ,
+	"terminal.integrated.inheritEnv": false,
+	"gitlens.currentLine.enabled": false,
+}
