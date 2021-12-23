@@ -6,6 +6,10 @@
 - [Using code as documentation to save time and share context](https://github.com/readme/guides/code-as-documentation)
 
 ---
+## How to extract current installed files?
+```sh
+cd ~/.dotfiles && brew bundle dump --force
+```
 
 ## Mario Souto Configs
 
@@ -30,24 +34,8 @@ rm -rf ~/.zshrc
 ### Setup dos dotfiles
 git clone https://github.com/omariosouto/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
-ln -s ~/.dotfiles/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
+ln -s ~/.dotfiles/.condarc ~/.condarc
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-
-
-#### Java Fixes
-sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
-
-### Finalização
-cd ~ && mkdir ./dev
-```
-
-## Post install
-```sh
-#### Flutter Specific
-flutter doctor --android-licenses
-```
-
-## How to extract current installed files?
-```sh
-cd ~/.dotfiles && brew bundle dump --force
-```
+ln -s ~/.dotfiles/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/.vimrc ~/.vimrc
