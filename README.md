@@ -7,7 +7,7 @@
 
 ---
 
-**Alterar o delay para mostrar o Dock: defaults write:**  
+**Alterar o delay para mostrar o Dock:**  
 `defaults write com.apple.dock "autohide-time-modifier" -float "0.5" && killall Dock`
 
 **Cria o arquivo _Brewfile_ com meus apps e pacotes:**  
