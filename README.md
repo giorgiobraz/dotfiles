@@ -34,7 +34,7 @@ rm -rf ~/.zshrc
 
 **Cria Symlinks dos Dotfiles:**  
 ```bash
-git clone https://github.com/omariosouto/dotfiles.git ~/.dotfiles
+git clone https://github.com/giorgiobraz/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
 ln -s ~/.dotfiles/.condarc ~/.condarc
