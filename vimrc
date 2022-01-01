@@ -41,6 +41,10 @@ set backspace=2
 " Esse comando serve para numerar as linhas
 set number
 
+" Esse comando serve para destacar a linha atual
+" set cursorline
+" set nocursorline
+
 "Calcular a distância entre as linhas ao selecionar um bloco
 "set relativenumber
 
