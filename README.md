@@ -15,6 +15,9 @@ cd ~/.dotfiles && brew bundle dump --force
 
 ## Automate this
 
+## Alterar o delay para mostrar o Dock: defaults write
+`defaults write com.apple.dock "autohide-time-modifier" -float "0.5" && killall Dock`
+
 ### Instalando Git e coisas básicas
 `xcode-select --install`
 
