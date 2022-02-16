@@ -23,6 +23,10 @@ nnoremap <C-\> :NERDTree<CR>
 " Não faz backup dos arquivos
 set noswapfile
 
+" Carregamento automático dos folds no Vim
+autocmd BufWinLeave *.* mkview
+autocmd BufWinEnter *.* silent loadview
+
 " Tamanho da indentação
 set tabstop=2
 
