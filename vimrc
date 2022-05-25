@@ -15,10 +15,24 @@ colorscheme Tomorrow-Night-Eighties
 " Verificação de erros gramaticais e ortográficos
 " set spelllang=pt-BR
 
+" Tamanho da fonte no editor Vim com GUI
 set guifont=Monaco:h18
 
 " Atalhos personalizados
 nnoremap <C-\> :NERDTree<CR>
+nnoremap <C-p> :CtrlP
+
+" Display line -> Real line
+nnoremap k gk
+nnoremap gk k
+nnoremap j gj
+nnoremap gj j
+
+" Goyo and Limelight keys
+" nnoremap <Leader>gy :Goyo<CR>
+" nnoremap <Leader>gm :Limelight<CR>
+autocmd! User GoyoEnter Limelight
+autocmd! User GoyoLeave Limelight!
 
 " Não faz backup dos arquivos
 set noswapfile
@@ -69,3 +83,16 @@ set expandtab
 
 " Backspace respeitar indentação
 set softtabstop=2
+
+" --------------------------------------------
+"       Recommended Syntastic settings 
+" --------------------------------------------
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+" let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
